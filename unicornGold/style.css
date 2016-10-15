@@ -1,0 +1,632 @@
+body {
+  font-family: sans-serif;
+  font-weight: lighter !important;
+  color: #3F3F3F;
+}
+.title {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1vw;
+  color: #d3a70e;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 1.2vw;
+  padding: 0px 8vw;
+}
+.squattyPottyLogo {
+  width: 20vw;
+  margin-top: -1.8vw;
+}
+.beforeSquat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.squat {
+  width: 16.5vw;
+  margin-bottom: .5vw;
+  margin-left: -3vw;
+}
+.logo {
+  width: 20vw;
+  margin-left: -3vw;
+}
+.buyNowSection {
+  display: flex;
+  align-items: center;
+  margin-top: -1.8vw;
+}
+.buyNow {
+  border: .2vw solid #009DE2;
+  text-align: center;
+  color: #009DE2;
+  padding: .6vw 1.1vw .6vw 1.1vw;
+  margin-left: 2vw;
+}
+.cloud {
+  position: absolute;
+  z-index: 1;
+  transform: rotate(180deg);
+  margin-top: -20vw;
+  width: 100%;
+  height: 34vw;
+  opacity: .6;
+}
+.flowers {
+position: relative;
+width: 100%;
+opacity: .2;
+}
+
+.videoSection {
+  width: 100%;
+  height: 20vw;
+  position: absolute;
+  z-index: 5;
+  margin-top: 19%;
+  display: flex;
+  justify-content: space-around;
+  font-weight: normal;
+  padding: 0px 11vw;
+}
+.videoSection img{
+  width: 41vw;
+  height: 24vw;
+  border-radius: 5px;
+}
+.videoSection ul {
+  line-height: 200%;
+  margin-top: 10px;
+  list-style-type: disc;
+  font-size: 15px;
+}
+.buyNow-Explore {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  color: #009DE2;
+}
+.buyNow-Explore div{
+  background-color: #009DE2;
+  text-align: center;
+  color: white;
+  padding: 4px 15px 4px 15px;
+  margin-right: 20px;
+}
+.fiveBarReview {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20vw;
+  position: absolute;
+  z-index: 3;
+  margin-top: 48%;
+  text-align: center;
+  padding-top: 3vw;
+}
+.fiveBarReview img {
+  width: 15vw;
+  margin-top: -2.5vw;
+}
+.fiveBarReview span {
+  font-size: 12px;
+  font-weight: lighter;
+  font-family: sans-serif;
+  margin-top: -10px;
+  color: #FEA500;
+  font-weight: lighter;
+}
+.fiveBarReview div {
+  line-height: 100%;
+  margin-bottom: 1vw;
+}
+.fiveBarReview p {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 11px;
+}
+.mohawk {
+  background-color: lightgrey;
+  width: 100%;
+  opacity: .3;
+}
+.mohawkSectionTitle {
+  width: 100%;
+  text-align: center;
+  z-index: 7;
+  margin-top: 11.5vw;
+  position: absolute;
+  font-size: 25px;
+  font-weight: lighter;
+}
+.mohawkSectionIcons {
+  z-index: 8;
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20vw;
+  padding: 0px 13vw;
+}
+.mohawkSectionIcons img {
+  width: 18vw;
+  margin-bottom: 2vw;
+}
+.mohawkSectionIcons div {
+  text-align: center;
+  line-height: 150%;
+}
+.mohawkSectionIcons p{
+  margin-top: 2vw;
+
+}
+.mohawkSectionBottom {
+  background-color: white;
+  width: 60%;
+  overflow: visible;
+  z-index: 9;
+  position: absolute;
+  margin-top: 58vw;
+  height: 17vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left:20vw;
+}
+.mohawkSectionBottomBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 20vw;
+  text-align: center;
+  margin-top: -4.5vw;
+  font-size: 16px;
+}
+.mohawkSectionBottom img {
+  width: 8.5vw;
+  margin-top: -.5vw;
+}
+.boxBuy {
+  background-color: #009DE2;
+  border: .15vw solid #009DE2;
+  text-align: center;
+  color: white;
+  padding: .3vw 2vw .3vw 2vw;
+}
+.scents {
+  width: 100%;
+  height: 45vw;
+  margin-top: -2.0vw;
+  font-weight: lighter;
+  color: white;
+  line-height: 200%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.scents div {
+  display: flex;
+  width: 100%;
+  height: 22.5vw;
+  justify-content: center;
+  margin-left: -3vw;
+}
+.scents p {
+  margin-left: -5vw;
+  margin-top: 2.5vw;
+  font-size: 16px;
+  font-weight: lighter;
+}
+.scents span{
+  font-size: 20px;
+  border-bottom: 1px solid white;
+  padding-bottom: .5vw;
+}
+.scents section {
+  border: .15vw solid white;
+  text-align: center;
+  color: white;
+  padding: .3vw 2vw .3vw 2vw;
+  margin-top: 2vw;
+}
+.productsCarouselVanilla {
+  background: linear-gradient(to bottom, #F5C400, #E4CAAF);
+}
+.productsCarouselCitrus {
+  background: linear-gradient(to bottom, #D95700, #ECBC5B);
+}
+.productsCarouselForest {
+  background: linear-gradient(to bottom, #1A6B0C, #BBD2A7);
+}
+.productsCarouselFruity {
+  background: linear-gradient(to bottom, #CB075B, #F1BF57);
+}
+.productsCarouselTropical {
+  background: linear-gradient(to bottom, #009BBE, #C0B2BB);
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+
+.carousel-inner img {
+  width: 25vw;
+  height: 25vw;
+}
+.carousel-inner h3 {
+  color: white;
+  font-weight: lighter;
+  width: 100%;
+  text-align: center;
+  padding-top: 2vw;
+}
+
+.unicornSuctionSection {
+  overflow: hidden;
+  position: relative;
+  height: 38vw;
+}
+
+.unicornSuctionSection img{
+  width: 100%;
+  margin-top: -13.5vw;
+  opacity: .1;
+  position: relative;
+}
+
+.unicornSuctionSection h2 {
+  text-align: center;
+  font-weight: lighter;
+  position: absolute;
+  margin-top: -46.5vw;
+  width: 100%;
+}
+.colorCircles {
+  position: absolute;
+  width: 100%;
+  height: 15vw;
+  z-index: 30;
+  margin-top: -23vw;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 11vw;
+}
+.colorCircles img {
+  width: 6.5vw;
+  margin-bottom: 1vw;
+}
+.colorCircles div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 21vw;
+}
+.colorCircles p {
+  text-align: center;
+  line-height: 100%;
+  font-size: 2.5vw;
+  font-weight: normal;
+}
+.suctionBuyNow {
+  background-color: #009DE2;
+  border: .15vw solid #009DE2;
+  text-align: center;
+  color: white;
+  padding: .3vw 2vw .3vw 2vw;
+  position: absolute;
+  margin-top: -8vw;
+  margin-left: 45vw;
+}
+
+
+.battleOdorSection {
+  height: 42.5vw;
+  width: 100%;
+  background-color: #868c9c;
+  opacity: 1;
+  overflow: hidden;
+  color: white;
+
+}
+.battleOdorSection h2 {
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: -1.5vw;
+}
+.ocean {
+  background-image: url('images/theOcean4.png');
+  height: 15.5vw;
+  width: 100vw;
+  position: absolute;
+  z-index: 10;
+  margin-top: 21vw;
+}
+.poopToilet {
+  width: 33vw;
+  margin-top: -4vw;
+  margin-left: 55vw;
+  position: absolute;
+  z-index: 40;
+}
+.battleOdorSection div {
+  text-align: center;
+  font-size: 17px;
+}
+.battleOdorSection p {
+  margin-top: 11.5vw;
+  margin-left: 18vw;
+  position: absolute;
+  z-index: 30;
+  font-size: 12px;
+}
+
+
+
+.fiveStarRatingSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 18vw;
+  width: 100%;
+  text-align: center;
+  margin-top: 10vw;
+  overflow: hidden;
+}
+.fiveStarRatingSection img {
+  width: 15vw;
+  /*margin-top: 1vw;*/
+}
+.fiveStarRatingSection > *{
+  margin-bottom: 1.5vw;
+}
+.fiveStarRatingSection span {
+  font-style: italic;
+  font-size: 12px;
+}
+
+.unicornOnPotSection {
+  position: absolute;
+  width: 100%;
+  margin-top: 3.5vw;
+  text-align: center;
+  font-size: 2.5vw;
+}
+
+.boxCircles {
+  border-radius: 100%;
+  color: white;
+  opacity: .9;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7vw;
+  font-weight: normal;
+}
+.Airplane {
+  height: 10vw;
+  width: 10vw;
+  background: #3fd4ef;
+  margin: 9.5vw 19vw;
+}
+.Dorm {
+  height: 6vw;
+  width: 6vw;
+  background: #fced00;
+  margin: 12vw 57vw;
+}
+.Holiday {
+  height: 12vw;
+  width: 12vw;
+  background: #fe7732;
+  margin: 13vw 69vw;
+}
+.Game {
+  height: 11vw;
+  width: 11vw;
+  background: #4ca25c;
+  margin: 22vw 56vw;
+}
+.Job {
+  height: 13.5vw;
+  width: 13.5vw;
+  background: #ff34a7;
+  margin: 23vw 14vw;
+}
+.Restaurant {
+  height: 12vw;
+  width: 12vw;
+  background: #3fd4ef;
+  margin: 29vw 74vw;
+}
+.RV {
+  height: 7vw;
+  width: 7vw;
+  background: #4ca25c;
+  margin: 38vw 22vw;
+}
+.Hotel {
+  height: 7vw;
+  width: 7vw;
+  background: #fe7732;
+  margin: 40.5vw 45vw;
+}
+.In-laws {
+  height: 7vw;
+  width: 7vw;
+  background: #fced00;
+  margin: 45.25vw 33vw;
+}
+.Church {
+  height: 7vw;
+  width: 7vw;
+  background: #ff34a7;
+  margin: 45.75vw 58vw;
+}
+.Outhouse {
+  height: 10vw;
+  width: 10vw;
+  background: #fced00;
+  margin: 44vw 70vw;
+}
+
+.rainbowSkySection {
+  background-image: url('images/rainbow.png'), url('images/sky.png');
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 60vw;
+  width: 100%;
+  overflow: hidden;
+  margin-top: -21vw;
+  background-blend-mode: darken;
+  color: white;
+}
+
+.buyNowCircles {
+  background-color: #009DE2;
+  border: .15vw solid #009DE2;
+  text-align: center;
+  color: white;
+  padding: .8vw 3vw .8vw 3vw;
+  position: absolute;
+  font-size: 1.75vw;
+  margin-top: -11.5vw;
+  margin-left: 35vw;
+  font-weight: normal;
+}
+
+.rainbowSkySection h3 {
+  text-align: center;
+  margin-top: 25vw;
+}
+.rainbowSkySection h3 {
+  font-weight: lighter;
+}
+.rainbowSkySection p {
+  font-size: 1.75vw;
+  text-align: center;
+}
+.rainbowSkySection img {
+  width: 37vw;
+  margin-left: 31.5vw;
+  margin-top: 2vw;
+}
+.ounceSelectionSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 50vw;
+  width: 100%;
+  background: linear-gradient(to bottom, #Fff, #e1f6fc);
+}
+.ounceSelectionSection h3 {
+  font-weight: lighter;
+}
+.productImages {
+  display: flex;
+}
+.eachProduct{
+display: flex;
+flex-direction: column;
+align-items: center;
+font-size: .8vw;
+width: 16vw;
+}
+
+.eachProduct h4 {
+  font-weight: normal;
+  font-size: 1.4vw;
+}
+.eachProduct span {
+  font-weight: normal;
+  font-size: 1.1vw;
+  margin-bottom: .2vw;
+}
+.ounces {
+  border: .15vw solid #009DE2;
+  text-align: center;
+  padding: .5vw 1vw .5vw 1vw;
+  color: #009de2;
+  font-size: 1.3vw;
+  font-weight: normal;
+  margin: .1vw;
+}
+.ouncesBox {
+  display: flex;
+  flex-direction: row !important;
+  justify-content: center;
+}
+
+.greenVineSection {
+  background: #00b188;
+  background-image: url('images/vines3.png');
+  background-size: contain;
+  background-blend-mode: multiply;
+  opacity: 1 .3;
+  width: 100%;
+  height: 50vw;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.greenVineSection span {
+  font-weight: lighter;
+}
+
+.productsInToilet {
+  display: flex;
+  height: 30vw;
+  justify-content: center;
+  margin-top: 8vw;
+}
+.productsInToilet img {
+  width: 19vw;
+  height: 19vw;
+  margin: -6vw;
+}
+.getGift {
+  background-color: white;
+  border: .15vw solid #009DE2;
+  text-align: center;
+  color: #009DE2;
+  padding: .8vw 3vw .8vw 3vw;
+  font-weight: normal;
+  position: absolute;
+  margin-top: 41vw;
+}
+.fiveStarRatingSectionBottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 25vw !important;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  margin-top: 5vw;
+}
+.fiveStarRatingSectionBottom img {
+  width: 15vw;
+  margin-bottom: 1.5vw;
+}
+.fiveStarRatingSectionBottom span {
+  font-style: italic;
+  font-size: 12px;
+  margin-top: -1vw;
+  margin-bottom: 5vw;
+}
+.blueCloud {
+  width: 100vw !important;
+}
