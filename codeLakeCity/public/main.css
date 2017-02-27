@@ -1,0 +1,329 @@
+video {
+  width: 100vw;
+  position: fixed;
+}
+
+
+h1 {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  font-family: 'Muli';
+}
+nav {
+  background-color: #001535;
+  opacity: 1;
+  position: fixed;
+  z-index: 103;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 100vw;
+  height: 80px;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.writing {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background: black;
+  opacity: .75;
+  padding: 15px;
+  border-radius: 5px;
+}
+.writing p {
+  font-size: 20px;
+  font-family: 'Muli';
+  color: white;
+  line-height: 150%;
+}
+.theMenu {
+  color: #fff;
+  font-family: 'Muli';
+  display: flex;
+  justify-content: space-around;
+  width:40%;
+  margin-left: 40vw;
+}
+.theMenu p {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.clouds {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('clouds.jpg');
+}
+.logo {
+  width: 150px;
+  z-index: 104;
+}
+.logo:hover {
+  cursor: pointer;
+}
+span {
+  font-family: 'Muli';
+  font-weight: 600;
+  color: #001535;
+  font-size: 80px;
+}
+
+.info {
+  color: white;
+  font-family: 'Muli';
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 100%;
+  /*background-color:black;*/
+    z-index:0;
+    opacity:0.85;
+    border-radius: 5px;
+}
+.rightInfo {
+  height: 75px;
+  width: 50%;
+  /*background-color: #001535;*/
+  position: absolute;
+  z-index: 100;
+  left: 25%;
+}
+.leftInfo {
+  height: 75px;
+  width: 50%;
+  /*background-color: #001535;*/
+  position: absolute;
+  z-index: 100;
+  left: 25%;
+  margin-top: 15%;
+
+}
+
+.centerInfo {
+  height: 75px;
+  width: 50%;
+  /*background-color: #001535;*/
+  position: absolute;
+  z-index: 100;
+  left: 25%;
+  margin-top: 7.5%;
+
+}
+.reserveSeatOne {
+  transition-timing-function: ease-out;
+  transition: 0.5s;
+
+  height: 75px;
+  width: 30%;
+  background: #66fb17;
+  position: absolute;
+  z-index: 100;
+  left: 35%;
+  margin-top: 24%;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 30px;
+  font-family: 'Muli';
+}
+.reserveSeatOne:hover {
+  cursor: pointer;
+}
+.reserveSeatTwo {
+  transition-timing-function: ease-out;
+  transition: 0.5s;
+
+  height: 75px;
+  width: 30%;
+  background: #66fb17;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 30px;
+  font-family: 'Muli';
+}
+.reserveSeatTwo:hover {
+  cursor: pointer;
+}
+
+/*.cover {
+  background: black;
+  opacity: .50;
+  width: 100vw;
+  height: 98vw;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+}*/
+.mountainSection {
+  width: 100vw;
+  margin-top: -33vw;
+  z-index: 110;
+}
+.bottomOfMountain {
+  width: 100%;
+  background: black;
+  position: absolute;
+  height: 568vh;
+  margin-top: -1.25vw;
+  opacity: .75;
+  box-shadow: 0 0 150px 80px #000;
+  overflow-y: hidden;
+}
+.missionSection {
+  height: 101vh;
+  width: 100vw;
+  margin-top: -1vw;
+  background-repeat: no-repeat;
+  background-image: url('http://interiorpatio.com/wp-content/uploads/2015/10/home-office-modern-l-shaped-corner-computer-desk-with-black-and-white-metal-materials-combine-with-white-flooring-and-wall-l-shaped-desk-with-hutch-home-office.jpg');
+  background-size: 100% 150%;
+  background-attachment: fixed;
+}
+.classSection {
+  height: 202vh;
+  width: 100vw;
+  margin-top: -1vw;
+  background-repeat: no-repeat;
+  background-image: url('https://s-media-cache-ak0.pinimg.com/originals/62/88/f7/6288f743cf7e0a9c3ee0e6bd97455cb3.jpg');
+  background-size: 100% 100%;
+  background-attachment: fixed;
+
+}
+.aboutSection {
+  height: 101vh;
+  width: 100vw;
+  margin-top: -1vw;
+  background-repeat: no-repeat;
+  background-image: url('http://www.bgclaredo.com/prostaff.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+.contactSection {
+  height: 101vh;
+  width: 100vw;
+  margin-top: -1vw;
+  background-color: #66fb17;
+  /*background-repeat: no-repeat;
+  background-image: url('http://www.dnfcontrols.com/wp-content/uploads/2016/01/contact-us-banner.jpg');
+  background-size: 100% 100%;
+  background-attachment: fixed;*/
+
+}
+.classModal {
+  height: 80vh;
+  width: 50vw;
+  background-color: white;
+  position: fixed;
+  left: 25vw;
+  top: 10vh;
+  z-index: 150;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #66fb17;
+  font-family: 'Muli';
+}
+.theX {
+  color: white;
+  font-size: 30px;
+  font-family: 'Muli';
+  position: absolute;
+  top: 5px;
+  right: 15px;
+}
+.theX:hover {
+  cursor: pointer;
+}
+
+select {
+  width: 150px;
+  font-family: 'Muli';
+  font-size: 12px;
+  padding-left: 5px;
+  border-radius: 5px;
+
+}
+.modalCover {
+  height: 200vw;
+  width: 100vw;
+  background-color: black;
+  opacity: .75;
+  position: fixed;
+  z-index: 149;
+  top: 0;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 60%;
+  height: 22vw;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.menu {
+  cursor: pointer;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  z-index: 104;
+}
+.menu-global {
+  backface-visibility: hidden;
+  position: absolute;
+  left: 0;
+  border-top: 7px solid white;
+  width: 100%;
+  transition: 0.55s;
+}
+.menu-top {
+  top: 0;
+}
+.menu-middle {
+  top: 18px;
+}
+.menu-bottom {
+  top: 36px;
+}
+.menu-top-click {
+  backface-visibility: hidden;
+  top: 15px;
+  transform: rotate(50deg);
+  transition: 0.55s 0.5s;
+}
+.menu-middle-click {
+  opacity: 0;
+}
+.menu-bottom-click {
+  backface-visibility: hidden;
+  top: 15px;
+  transform: rotate(-410deg);
+  transition: 0.55s 0.5s;
+}
